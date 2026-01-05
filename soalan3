@@ -1,0 +1,17 @@
+#Soalan 3 (Lebih daripada satu operasi)
+#Create a Python program that receives two numbers from the user and displays:
+#the sum
+#the difference
+#the product
+
+Jawapan :
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+sum =  num1 + num2 
+difference = num1 - num2
+product = num1 * num2
+
+print("The sum is:", + sum)
+print ("The difference is:", + difference)
+print("The product is:", + product)
