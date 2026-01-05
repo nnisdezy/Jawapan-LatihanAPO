@@ -1,0 +1,13 @@
+#Soalan 10 (Masalah dunia sebenar – lengkap & berurutan)
+#Create a Python program that receives:
+#the distance (in km) travelled
+#the time (in hours) taken
+#Then calculate and display the average speed (km/h) with a clear output message.
+
+Jawapan:
+distance = float(input("Enter the distance travelled (km): "))
+time = float(input("Enter the time taken (hours): "))
+
+average_speed = distance / time
+
+print("The average speed is", average_speed, "km/h")
